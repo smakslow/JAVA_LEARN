@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/DBS/src/aaaaaa/smakslow/MyQueue.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/aaaaaa/smakslow/Solution.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/aaaaaa/smakslow/SortTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/aaaaaa/smakslow/graph" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/aaaaaa/smakslow/sort" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/aaaaaa/smakslow/sort/HeapSort.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DBS/src/aaaaaa/smakslow/tree" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/array" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/avl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/binarySearch1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/binarySearch2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/collection" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/com" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/dp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/feidigui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/graph" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/greed" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/hash" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/heap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/list" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/map" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/partition" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/priorityQueue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/queue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/rbt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/recursion" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/returnto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/sort" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/stack" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/trie" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DBS/src/union" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DataStructures/src/com/atguigu/avl/AVLTreeDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DataStructures/src/com/atguigu/binarysorttree/BinarySortTreeDemo.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

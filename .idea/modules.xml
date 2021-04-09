@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DBS/DBS.iml" filepath="$PROJECT_DIR$/DBS/DBS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures/DataStructures.iml" filepath="$PROJECT_DIR$/DataStructures/DataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA-LEARN.iml" filepath="$PROJECT_DIR$/JAVA-LEARN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPractice/JavaPractice.iml" filepath="$PROJECT_DIR$/JavaPractice/JavaPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PAT/PAT.iml" filepath="$PROJECT_DIR$/PAT/PAT.iml" />
+      <module fileurl="file://$PROJECT_DIR$//Pat.iml" filepath="$PROJECT_DIR$//Pat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgrammingContest/ProgrammingContest.iml" filepath="$PROJECT_DIR$/ProgrammingContest/ProgrammingContest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgrammingLearn/ProgrammingLearn.iml" filepath="$PROJECT_DIR$/ProgrammingLearn/ProgrammingLearn.iml" />
+    </modules>
+  </component>
+</project>
