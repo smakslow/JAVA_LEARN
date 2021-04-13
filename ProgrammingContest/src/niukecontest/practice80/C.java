@@ -13,6 +13,7 @@ public class C {
     static StringTokenizer tokenizer = new StringTokenizer("");
 
     public static void main(String[] args) throws IOException {
+        int n = nextInt();
 
         out.flush();
         out.close();
