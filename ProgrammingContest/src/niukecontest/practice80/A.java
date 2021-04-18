@@ -13,26 +13,26 @@ public class A {
     static StringTokenizer tokenizer = new StringTokenizer("");
 
     public static void main(String[] args) throws IOException {
-        String str = next();
-        List<int[]> ans = new ArrayList<>();
-        for (int i = 0; i < str.length();) {
+        String str = " " + next() + " ";
+        int n = str.length() - 2;
+        char[] ch = str.toCharArray();
+        int cnt = 0;
+        for (int i = 1; i <= n; i++) {
+            if (ch[i] == '0') continue;
             int j = i;
-            while(j < str.length() &&  str.charAt(j) == '1' && str.charAt(j) == str.charAt(j  + 1) ) j++;
-           if(i != j){
-               ans.add(new int[]{i,j});
-               i = j;
-           }else {
-               i++;
-           }
+            while (ch[j] == '1') j++;
+            i = j - 1;
+            cnt++;
         }
-        int res = ans.size();
-        for (int i = 1; i < res; i++) {
-            if(ans.get(i)[0] - ans.get(i - 1)[1] == 1){
-                out.println(res - 1);
-                return;
-            }
-        }
-        out.println(res);
+        int A = cnt;
+        for (int i = 1; i <= n; i++)
+            if (ch[i] == '1' && ch[i - 1] != '1' && ch[i + 1] != '1')
+                A = cnt - 1;
+        int B = cnt;
+        for (int i = 2; i < n; i++)
+            if (ch[i] != '1' && ch[i - 1] == '1' && ch[i + 1] == '1')
+                B = cnt - 1;
+        out.println(Math.min(cnt, Math.min(A, B)));
         out.flush();
         out.close();
     }

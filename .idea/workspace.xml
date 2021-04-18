@@ -2,85 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0389026-1e9a-4e74-af34-4ff48cf4f9c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/ReentrantLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/ReentrantReaderWriteLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/daily/_179.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_236/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_236/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_236/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_236/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_86/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/NoneLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/ObjectLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/WaitAndNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/tree/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/tree/TrieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/utils/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/ZeroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/_haojin2020/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/_haojin2020/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/bilibili/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/yuanjinzineng2021/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/yuanjinzineng2021/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/yufudao2021/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/yufudao2021/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/F.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/G.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/H.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaiuniver19/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaiuniver19/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaiuniver19/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaiuniver19/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/F.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/G.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingLearn/src/noobdream/_1002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingLearn/src/noobdream/_1414.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgrammingLearn/src/noobdream/_1810.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/atguigu/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/smakslow/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/atguigu/binarysearchnorecursion/BinarySearchNoRecur.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/smakslow/binarysearchnorecursion/BinarySearchNoRecur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/atguigu/dac/Hanoitower.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/smakslow/dac/Hanoitower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/atguigu/dijkstra/DijkstraAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/smakslow/dijkstra/DijkstraAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/atguigu/dynamic/KnapsackProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/smakslow/dynamic/KnapsackProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/atguigu/floyd/FloydAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/smakslow/floyd/FloydAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/atguigu/greedy/GreedyAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/smakslow/greedy/GreedyAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/atguigu/horse/HorseChessboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/smakslow/horse/HorseChessboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/atguigu/kmp/KMPAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/smakslow/kmp/KMPAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/atguigu/kmp/ViolenceMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/smakslow/kmp/ViolenceMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/atguigu/kruskal/KruskalCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/smakslow/kruskal/KruskalCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/atguigu/prim/PrimAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/smakslow/prim/PrimAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/DeleteUselessRep.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/DeleteUselessRep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/avl/AVLTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/avl/AVLTreeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/binarysorttree/BinarySortTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/binarysorttree/BinarySortTreeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/hashtab/HashTabDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/hashtab/HashTabDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/huffmancode/HuffmanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/huffmancode/HuffmanCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/huffmantree/HuffmanTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/huffmantree/HuffmanTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/linkedlist/DoubleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/linkedlist/DoubleLinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/linkedlist/Josepfu.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/linkedlist/Josepfu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/linkedlist/SingleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/linkedlist/SingleLinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/linkedlist/TestStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/linkedlist/TestStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/queue/ArrayQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/queue/ArrayQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/queue/CircleArrayQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/queue/CircleArrayQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/recursion/MiGong.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/recursion/MiGong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/recursion/Queue8.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/recursion/Queue8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/recursion/RecursionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/recursion/RecursionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/reversepolishcal/ReversePolishMultiCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/reversepolishcal/ReversePolishMultiCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/search/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/search/FibonacciSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/search/FibonacciSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/search/InsertValueSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/search/InsertValueSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/search/SeqSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/search/SeqSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/sort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/sort/MergetSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/sort/MergetSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/sort/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/sort/RadixSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/sort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/sort/SelectSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/sort/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/sparsearray/SparseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/sparsearray/SparseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/stack/ArrayStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/stack/ArrayStackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/stack/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/stack/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/stack/PolandNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/stack/PolandNotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/tree/ArrBinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/tree/ArrBinaryTreeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/tree/BinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/tree/BinaryTreeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/tree/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/tree/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/tree/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/tree/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/src/com/atguigu/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/src/com/smakslow/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/utils/AQS.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/AQS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/E.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/E.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/G.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/H.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/I.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingContest/niukecontest/practice80/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingContest/niukecontest/practice80/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingContest/niukecontest/practice80/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingContest/niukecontest/practice80/C.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingContest/niukecontest/practice80/E.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingContest/niukecontest/practice80/E.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingContest/niukecontest/practice80/G.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingContest/niukecontest/practice80/H.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingContest/niukecontest/practice80/I.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/com/smalsow/javapractice/test/ReentrantLockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/com/smalsow/javapractice/test/ReentrantReaderWriteLockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/com/smalsow/javapractice/utils/AQS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingContest/leetcode/_2021spring_team/A$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingContest/leetcode/_2021spring_team/A$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingContest/leetcode/_2021spring_team/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingContest/leetcode/_2021spring_team/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingContest/leetcode/_2021spring_team/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingContest/leetcode/_2021spring_team/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingContest/leetcode/_2021spring_team/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingContest/leetcode/_2021spring_team/C.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,6 +68,23 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="175" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -105,97 +99,85 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/daily/_179.java">
+        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="324">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/AtCoder/AtCoderBeginnerContest/_189/A.java">
+        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/B.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="459">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/AtCoder/AtCoderBeginnerContest/_189/B.java">
+        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_86/A.java">
+        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/B.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="324">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/ReentrantLockTest.java">
+        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/C.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/ReentrantReaderWriteLockTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="507">
+              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/AQS.java">
+        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="669">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/F.java">
+        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/C.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/B.java">
+        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="54">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/_vivo2021aut/B.java">
+        <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="42" column="5" selection-start-line="9" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="405">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -234,6 +216,8 @@
       <find>l</find>
       <find>length</find>
       <find>i</find>
+      <find>object</find>
+      <find>testIntArr</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -257,6 +241,7 @@
       <replace>len2</replace>
       <replace>j</replace>
       <replace>length()</replace>
+      <replace>nums</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -265,57 +250,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/but2021/A.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/but2021/B.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/but2021/C.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/but2021/D.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/but2021/E.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/but2021/F.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/but2021/G.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/but2021/H.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/but2021/I.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring/A.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring/B.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring/C.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/_vivo2021aut/B.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/_vivo2021aut/A.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_83/A.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_83/C.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_83/B.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC14585.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC14661.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC14893.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC15029.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC15056.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC15128.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC15163.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC15173.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC15975.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC14266.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_84/A.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_84/B.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_84/C.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_235/C.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/B.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/D.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/F.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/G.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/H.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/I.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/E.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/C.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/A.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/B.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/C.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/A.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_236/A.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_236/B.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_236/C.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/daily/_179.java" />
-        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_86/A.java" />
         <option value="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/test/Reentrant.java" />
         <option value="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/test/ReentrantLockTest.java" />
         <option value="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/test/ReentrantReaderWriteLockTest.java" />
+        <option value="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/NoneLock.java" />
+        <option value="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/ObjectLock.java" />
+        <option value="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/WaitAndNotify.java" />
+        <option value="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/utils/Apple.java" />
+        <option value="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/tree/TrieTest.java" />
+        <option value="$PROJECT_DIR$/ProgrammingLearn/src/noobdream/_1810.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/but2021/H.java" />
+        <option value="$PROJECT_DIR$/ProgrammingLearn/src/noobdream/_1414.java" />
+        <option value="$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/tree/Trie.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/_haojin2020/B.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/_haojin2020/A.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/yufudao2021/B.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/yufudao2021/A.java" />
+        <option value="$PROJECT_DIR$/ProgrammingLearn/src/noobdream/_1002.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/yuanjinzineng2021/A.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/yuanjinzineng2021/B.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/Main.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/bilibili/A.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/C.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/E.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/F.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/G.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/H.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/I.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/A.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/A.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/B.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/D.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaiuniver19/A.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaiuniver19/B.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaiuniver19/C.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaiuniver19/D.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/ZeroTest.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/B.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/C.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/E.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/F.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/G.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/A.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/D.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/A.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/Solution.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/C.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/B.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/A.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/B.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/C.java" />
+        <option value="$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/D.java" />
       </list>
     </option>
   </component>
@@ -334,8 +319,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1934" />
-    <option name="y" value="107" />
+    <option name="x" value="1796" />
+    <option name="y" value="46" />
     <option name="width" value="1936" />
     <option name="height" value="737" />
   </component>
@@ -352,78 +337,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
               <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="smalsow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="smalsow" type="462c0819:PsiDirectoryNode" />
-              <item name="javapractice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="smalsow" type="462c0819:PsiDirectoryNode" />
-              <item name="javapractice" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="smalsow" type="462c0819:PsiDirectoryNode" />
-              <item name="javapractice" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="smalsow" type="462c0819:PsiDirectoryNode" />
-              <item name="javapractice" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
@@ -481,6 +400,23 @@
               <item name="ProgrammingContest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="biweeklyrace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingContest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="biweeklyrace" type="462c0819:PsiDirectoryNode" />
+              <item name="_50" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingContest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="daily" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -523,7 +459,56 @@
               <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
               <item name="ProgrammingContest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="niukecontest" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="weeklyrace" type="462c0819:PsiDirectoryNode" />
+              <item name="_237" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingContest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke_recruit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingContest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke_recruit" type="462c0819:PsiDirectoryNode" />
+              <item name="_haojin2020" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingContest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke_recruit" type="462c0819:PsiDirectoryNode" />
+              <item name="_vivo2021aut" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingContest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke_recruit" type="462c0819:PsiDirectoryNode" />
+              <item name="bilibili" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingContest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke_recruit" type="462c0819:PsiDirectoryNode" />
+              <item name="yuanjinzineng2021" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingContest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke_recruit" type="462c0819:PsiDirectoryNode" />
+              <item name="yufudao2021" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
@@ -531,7 +516,6 @@
               <item name="ProgrammingContest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="niukecontest" type="462c0819:PsiDirectoryNode" />
-              <item name="practice80" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
@@ -544,10 +528,18 @@
               <item name="ProgrammingLearn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JAVA_LEARN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA_LEARN" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgrammingLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="noobdream" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -577,17 +569,17 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.VCS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\JAVA-LEARN\ProgrammingContest\src\leetcode\weeklyrace\_233" />
-      <recent name="D:\Projects\JAVA-LEARN\Lanqiao\src\competecontest\challenge47" />
-      <recent name="D:\Projects\JAVA-LEARN\DBS\src" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\JAVA-LEARN\ProgrammingContest\src" />
+      <recent name="D:\Projects\JAVA-LEARN\PAT" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="competecontest._2021Trainning4" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\JAVA-LEARN\ProgrammingContest\src" />
-      <recent name="D:\Projects\JAVA-LEARN\PAT" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\JAVA-LEARN\ProgrammingContest\src\leetcode\weeklyrace\_233" />
+      <recent name="D:\Projects\JAVA-LEARN\Lanqiao\src\competecontest\challenge47" />
+      <recent name="D:\Projects\JAVA-LEARN\DBS\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -602,26 +594,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReentrantReaderWriteLockTest">
-    <configuration name="A (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niukecontest.practice80.A" />
+  <component name="RunManager" selected="Application.B">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke_recruit._haojin2020.A" />
       <module name="ProgrammingContest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="niukecontest.practice80.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode._2021spring_team.A" />
-      <module name="ProgrammingContest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode._2021spring_team.*" />
+          <option name="PATTERN" value="niuke_recruit._haojin2020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -630,11 +609,11 @@
       </method>
     </configuration>
     <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niukecontest.foolsDay.B" />
+      <option name="MAIN_CLASS_NAME" value="niuke_recruit.yuanjinzineng2021.B" />
       <module name="ProgrammingContest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="niukecontest.foolsDay.*" />
+          <option name="PATTERN" value="niuke_recruit.yuanjinzineng2021.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -642,12 +621,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smalsow.javapractice.thread.ReentrantLockTest" />
+    <configuration name="TrieTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smalsow.javapractice.tree.TrieTest" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smalsow.javapractice.thread.*" />
+          <option name="PATTERN" value="com.smalsow.javapractice.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -655,12 +634,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantReaderWriteLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.smalsow.javapractice.thread.ReentrantReaderWriteLockTest" />
-      <module name="JavaPractice" />
+    <configuration name="ZeroTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke_recruit.ZeroTest" />
+      <module name="ProgrammingContest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smalsow.javapractice.thread.*" />
+          <option name="PATTERN" value="niuke_recruit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_1414" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="noobdream._1414" />
+      <module name="ProgrammingLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="noobdream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -670,11 +662,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReentrantReaderWriteLockTest" />
-        <item itemvalue="Application.ReentrantLockTest" />
-        <item itemvalue="Application.A (2)" />
-        <item itemvalue="Application.A (1)" />
         <item itemvalue="Application.B" />
+        <item itemvalue="Application.ZeroTest" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="Application._1414" />
+        <item itemvalue="Application.TrieTest" />
       </list>
     </recent_temporary>
   </component>
@@ -859,7 +851,12 @@
       <workItem from="1618036737735" duration="9064000" />
       <workItem from="1618106429632" duration="6190000" />
       <workItem from="1618194230161" duration="1838000" />
-      <workItem from="1618279763425" duration="3516000" />
+      <workItem from="1618279763425" duration="4657000" />
+      <workItem from="1618383275221" duration="1553000" />
+      <workItem from="1618457246571" duration="17634000" />
+      <workItem from="1618568456905" duration="7103000" />
+      <workItem from="1618626869510" duration="16337000" />
+      <workItem from="1618712811562" duration="10023000" />
     </task>
     <servers />
   </component>
@@ -896,12 +893,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="722611000" />
+    <option name="totallyTimeSpent" value="776402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.21143848" visible="true" weight="0.20373334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.21143848" visible="true" weight="0.2192" />
       <window_info id="Structure" order="1" sideWeight="0.7885615" side_tool="true" weight="0.3171521" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -910,8 +908,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.7885615" side_tool="true" weight="0.3171521" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32781458" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19039735" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919093" visible="true" weight="0.42203742" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5837479" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919093" weight="0.08955224" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -924,18 +922,18 @@
       <window_info anchor="bottom" id="JProfiler" order="13" weight="0.32928944" />
       <window_info anchor="bottom" id="Duplicates" order="14" weight="0.32928944" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" sideWeight="0.49913344" weight="0.22087379" />
+      <window_info anchor="right" id="Maven" order="5" sideWeight="0.49913344" weight="0.22069523" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32983023" />
       <window_info anchor="right" id="Key Promoter X" order="9" />
       <window_info anchor="right" id="Word Book" order="10" side_tool="true" />
       <window_info anchor="right" id="leetcode" order="11" sideWeight="0.50086653" side_tool="true" weight="0.32928804" />
-      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32949877" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32902184" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.21143848" visible="true" weight="0.12" />
@@ -990,202 +988,201 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JAVA_LEARN$_1414.ic" NAME="_1414 Coverage Results" MODIFIED="1618463783970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>noobdream.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/JAVA_LEARN$_1470A.ic" NAME="_1470A Coverage Results" MODIFIED="1615383880849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Codeforces.*</FILTER>
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_83/B.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/_vivo2021aut/B.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/learn/chart1/NC16783.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="339">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC14661.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC14893.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC15029.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC15056.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC15163.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC14266.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC14585.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_48/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_84/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="46" selection-start-line="3" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_84/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_84/D.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/_vivo2021aut/A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC15128.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC15173.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/learn/chart2/NC15975.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_84/C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="515" column="7" lean-forward="true" selection-start-line="515" selection-start-column="7" selection-end-line="515" selection-end-column="7" />
-          <folding>
-            <element signature="e#15897#15898#0" expanded="true" />
-            <element signature="e#15933#15934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_235/C.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/yufudao2021/A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/D.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingLearn/src/noobdream/_1002.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="405">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/G.java" />
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/H.java" />
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/I.java" />
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/A.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/yuanjinzineng2021/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="19" column="94" selection-start-line="19" selection-start-column="94" selection-end-line="19" selection-end-column="94" />
+        <state relative-caret-position="918">
+          <caret line="38" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/yuanjinzineng2021/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingLearn/src/noobdream/_1810.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingLearn/src/noobdream/_1414.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/yufudao2021/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="32" column="5" selection-start-line="9" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/bilibili/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge47/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/E.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/F.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100062">
+          <caret line="3751" column="22" selection-start-line="3751" selection-start-column="22" selection-end-line="3751" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/G.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/H.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1194,122 +1191,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/E.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10611">
-          <caret line="421" column="25" selection-start-line="421" selection-start-column="25" selection-end-line="421" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/src/com/smakslow/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/_2021spring_team/E.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_236/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_235/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_235/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_236/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_236/C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_236/D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1323,54 +1206,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/_vivo2021aut/B.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_235/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="42" column="5" selection-start-line="9" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/challenge49/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/daily/_179.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="594">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/AtCoder/AtCoderBeginnerContest/_189/A.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaitec/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaiuniver19/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaiuniver19/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaiuniver19/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/shanghaiuniver19/D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niuke_recruit/ZeroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/POJ3612.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/AtCoder/AtCoderBeginnerContest/_189/B.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai32/D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_86/A.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/B.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="1839" column="15" selection-start-line="1839" selection-start-column="15" selection-end-line="1839" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/practice80/F.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
+        <state relative-caret-position="729">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1378,45 +1328,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="167" column="31" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
+        <state relative-caret-position="729">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
-            <element signature="e#5562#5563#0" expanded="true" />
-            <element signature="e#5614#5615#0" expanded="true" />
-            <element signature="e#7116#7117#0" expanded="true" />
-            <element signature="e#7150#7151#0" expanded="true" />
-            <element signature="e#8176#8177#0" expanded="true" />
-            <element signature="e#8216#8217#0" expanded="true" />
-            <element signature="e#9117#9118#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
-            <element signature="e#12210#12211#0" expanded="true" />
-            <element signature="e#12258#12259#0" expanded="true" />
-            <element signature="e#15850#15851#0" expanded="true" />
-            <element signature="e#15881#15882#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/ReentrantLockTest.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/E.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="729">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/ReentrantReaderWriteLockTest.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/F.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="729">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaPractice/src/com/smalsow/javapractice/thread/AQS.java">
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/G.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="729">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/niukecontest/xiaobai33/D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/biweeklyrace/_50/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProgrammingContest/src/leetcode/weeklyrace/_237/D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
