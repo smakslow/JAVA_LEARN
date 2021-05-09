@@ -6,7 +6,8 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-public class H {static PrintWriter out = new PrintWriter(System.out);
+public class H {
+    static PrintWriter out = new PrintWriter(System.out);
     static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer tokenizer = new StringTokenizer("");
 

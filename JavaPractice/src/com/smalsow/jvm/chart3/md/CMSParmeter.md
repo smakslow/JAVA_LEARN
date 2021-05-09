@@ -1,0 +1,10 @@
+-XX:+UseConcMarkSweepGC	使用CMS内存收集		测试中配置这个以后,-XX:NewRatio=4的配置失效了,原因不明.所以,此时年轻代大小最好用-Xmn设置.???
+-XX:+AggressiveHeap			试图是使用大量的物理内存 长时间大内存使用的优化，能检查计算资源（内存， 处理器数量） 至少需要256MB内存 大量的CPU／内存， （在1.4.1在4CPU的机器上已经显示有提升）
+-XX:CMSFullGCsBeforeCompaction	多少次后进行内存压缩		由于并发收集器不对内存空间进行压缩,整理,所以运行一段时间以后会产生"碎片",使得运行效率降低.此值设置运行多少次GC以后对内存空间进行压缩,整理.
+-XX:+CMSParallelRemarkEnabled	降低标记停顿		
+-XX+UseCMSCompactAtFullCollection	在FULL GC的时候， 对年老代的压缩		CMS是不会移动内存的， 因此， 这个非常容易产生碎片， 导致内存不够用， 因此， 内存的压缩这个时候就会被启用。 增加这个参数是个好习惯。 可能会影响性能,但是可以消除碎片
+-XX:+UseCMSInitiatingOccupancyOnly	使用手动定义初始化定义开始CMS收集		禁止hostspot自行触发CMS GC
+-XX:CMSInitiatingOccupancyFraction=70	使用cms作为垃圾回收 使用70％后开始CMS收集	92	为了保证不出现promotion failed(见下面介绍)错误,该值的设置需要满足以下公式CMSInitiatingOccupancyFraction计算公式
+-XX:CMSInitiatingPermOccupancyFraction	设置Perm Gen使用到达多少比率时触发	92	
+-XX:+CMSIncrementalMode	设置为增量模式		用于单CPU情况
+-XX:+CMSClassUnloadingEnabled
