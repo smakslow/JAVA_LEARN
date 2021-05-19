@@ -13,7 +13,7 @@ public class J {
 
     public static void main(String[] args) throws IOException {
 
-
+        out.println();
         out.flush();
         out.close();
     }
@@ -24,11 +24,9 @@ public class J {
         }
         return tokenizer.nextToken();
     }
-
     static int nextInt() throws IOException {
         return Integer.parseInt(next());
     }
-
     static double nextDouble() throws IOException {
         return Double.parseDouble(next());
     }
