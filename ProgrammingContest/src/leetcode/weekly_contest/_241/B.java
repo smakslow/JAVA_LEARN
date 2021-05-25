@@ -1,5 +1,6 @@
 package leetcode.weekly_contest._241;
 
+
 public class B {
     class Solution {
         public int minSwaps(String s) {
@@ -18,7 +19,7 @@ public class B {
                 char temp = ch[i];
                 while (j < ch.length && ch[j] == temp) j++;
                 int k = j;
-                while(k < ch.length && ch[k] != ch[j]) k++;
+                while (k < ch.length && ch[k] != ch[j]) k++;
                 swap(ch, i, k);
                 ans++;
             }
@@ -31,4 +32,6 @@ public class B {
             ch[j] = c;
         }
     }
+
+
 }
