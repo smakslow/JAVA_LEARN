@@ -1,4 +1,4 @@
-package niukecontest;
+package 挑战程序设计竞赛;
 
 import java.io.BufferedReader;
 import java.io.IOException;

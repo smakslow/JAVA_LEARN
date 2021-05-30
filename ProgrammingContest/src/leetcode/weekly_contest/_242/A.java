@@ -3,27 +3,19 @@ package leetcode.weekly_contest._242;
 public class A {
     public boolean checkZeroOnes(String s) {
         char[] chars = s.toCharArray();
-        int a = 0;
-        int b = 0;
-        for (int i = 0; i < chars.length; i++) {
-            int t = i;
-            int k = i;
-            while (t > 0) {
-                if (chars[t - 1] == chars[i]) {
-                    t--;
-                } else break;
-            }
-            while (k < chars.length - 1) {
-                if (chars[k + 1] == chars[i]) {
-                    k++;
-                } else break;
-            }
-            if (chars[i] == '0') {
-                a = Math.max(a, k - t);
+        int a = 0, zero = 0;
+        int b = 0, one = 0;
+        for (char c : chars) {
+            if (c == '0') {
+                a++;
+                b = 0;
             } else {
-                b = Math.max(b, k - t);
+                b++;
+                a = 0;
             }
+            zero = Math.max(zero, a);
+            one = Math.max(one, b);
         }
-        return b > a;
+        return one > zero;
     }
 }

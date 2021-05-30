@@ -10,13 +10,15 @@ public class C {
     static PrintWriter out = new PrintWriter(System.out);
     static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer tokenizer = new StringTokenizer("");
-    static int N = 1000010;
-    static int[] arr = new int[N];
+    static int[] arr = new int[200010];
 
     public static void main(String[] args) throws IOException {
-        int n = nextInt();
-        for (int i = 0; i < n; i++) {
-            arr[i] = nextInt();
+        int T = nextInt();
+        while (T-- > 0) {
+            int n = nextInt();
+            for (int i = 1; i <= n; i++) {
+                arr[i] = nextInt();
+            }
         }
         out.flush();
         out.close();

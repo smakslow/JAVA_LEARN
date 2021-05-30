@@ -1,10 +1,9 @@
-package acwing.weeklycontest1;
+package acwing.weeklycontest_test2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.HashSet;
 import java.util.StringTokenizer;
 
 public class A {
@@ -14,27 +13,18 @@ public class A {
 
     public static void main(String[] args) throws IOException {
         int n = nextInt();
-        int[] arr = new int[n];
-        HashSet<Integer> set = new HashSet<>();
-        for (int i = 0; i < n; i++) {
-            int x = nextInt();
-            arr[i] = x;
-            set.add(x);
-        }
-        int m = nextInt();
-        int[] arr1 = new int[m];
-        for (int i = 0; i < m; i++) {
-            int x = nextInt();
-            arr1[i] = x;
-            set.add(x);
-        }
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if(!set.contains(arr[i] + arr1[j]) ){
-                    System.out.println(arr[i] + arr1[j]);
-                    return;
-                }
+
+        while (true) {
+            int a = 0;
+            int t = n;
+            while (t > 0) {
+                a += t % 10;
+                t /= 10;
             }
+            if ((a % 4) == 0) {
+                out.println(n);
+                break;
+            } else n++;
         }
         out.flush();
         out.close();

@@ -1,39 +1,38 @@
-package acwing.weeklycontest1;
+package acwing.weeklycontest_test2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.HashSet;
+import java.util.HashMap;
 import java.util.StringTokenizer;
 
-public class A {
+public class B {
     static PrintWriter out = new PrintWriter(System.out);
     static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer tokenizer = new StringTokenizer("");
 
+
     public static void main(String[] args) throws IOException {
         int n = nextInt();
-        int[] arr = new int[n];
-        HashSet<Integer> set = new HashSet<>();
-        for (int i = 0; i < n; i++) {
-            int x = nextInt();
-            arr[i] = x;
-            set.add(x);
-        }
-        int m = nextInt();
-        int[] arr1 = new int[m];
-        for (int i = 0; i < m; i++) {
-            int x = nextInt();
-            arr1[i] = x;
-            set.add(x);
-        }
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if(!set.contains(arr[i] + arr1[j]) ){
-                    System.out.println(arr[i] + arr1[j]);
-                    return;
+        HashMap<Integer, Integer> left = new HashMap<>();
+        HashMap<Integer, Integer> right = new HashMap<>();
+        int i = 0, j = 0;
+        while (n-- > 0) {
+            String s = next();
+            int t = nextInt();
+            if (s.equals("R")) {
+                right.put(t, ++j);
+            } else if (s.equals("L")) {
+                left.put(t, ++i);
+            } else {
+                int res;
+                if (left.containsKey(t)) {
+                    res = Math.min(left.size() - left.get(t), right.size() + left.get(t) - 1);
+                } else {
+                    res = Math.min(right.size() - right.get(t), left.size() + right.get(t) - 1);
                 }
+                out.println(res);
             }
         }
         out.flush();
@@ -49,9 +48,5 @@ public class A {
 
     static int nextInt() throws IOException {
         return Integer.parseInt(next());
-    }
-
-    static double nextDouble() throws IOException {
-        return Double.parseDouble(next());
     }
 }
