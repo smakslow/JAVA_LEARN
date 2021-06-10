@@ -5,8 +5,8 @@ import java.io.IOException;
 
 public class FileReplace {
     static String newString = "";//新字符串,如果是去掉前缀后缀就留空，否则写上需要替换的字符串
-    static String oldString = "";//要被替换的字符串
-    static String dir = "";//文件所在路径，所有文件的根目录，记得修改为你电脑上的文件所在路径
+    static String oldString = "【瑞客论坛 www.ruike1.com】";//要被替换的字符串
+    static String dir = "E:\\小马哥数据结构\\视频";//文件所在路径，所有文件的根目录，记得修改为你电脑上的文件所在路径
 
     public static void main(String[] args) throws IOException {
         recursiveTraversalFolder(dir);//递归遍历此路径下所有文件夹

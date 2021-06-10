@@ -27,10 +27,10 @@ public class B {
         }
         if (m > sum) {
             out.println(arr[n - 1] + (m - sum) / (n - i));
-        }else if(m == sum){
+        } else if (m == sum) {
             out.println(arr[k]);
-        }else{
-            out.println(arr[k-1]+((m-(sum-((arr[k]-arr[k-1])*(k-i))))/(k-i)));
+        } else {
+            out.println(arr[k - 1] + ((m - (sum - ((arr[k] - arr[k - 1]) * (k - i)))) / (k - i)));
         }
         out.flush();
         out.close();
