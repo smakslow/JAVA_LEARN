@@ -12,9 +12,27 @@ public class A {
     static StringTokenizer tokenizer = new StringTokenizer("");
 
     public static void main(String[] args) throws IOException {
-
+        int T = nextInt();
+        int n, m, r, c;
+        while (T-- > 0) {
+            n = nextInt();
+            m = nextInt();
+            r = nextInt();
+            c = nextInt();
+            solve(n, m, r, c);
+        }
         out.flush();
         out.close();
+    }
+
+    private static void solve(int n, int m, int r, int c) {
+        int ans = 0;
+        ans = Math.max(Math.abs(r - 1) + Math.abs(c - 1), ans);
+        ans = Math.max(Math.abs(r - n) + Math.abs(c - m), ans);
+        ans = Math.max(Math.abs(r - 1) + Math.abs(c - m), ans);
+        ans = Math.max(Math.abs(r - n) + Math.abs(c - 1), ans);
+
+        out.println(ans);
     }
 
     static String next() throws IOException {

@@ -12,7 +12,12 @@ public class B {
     static StringTokenizer tokenizer = new StringTokenizer("");
 
     public static void main(String[] args) throws IOException {
-
+        int T = nextInt();
+        int n,k;
+        while(T-- > 0){
+            n = nextInt();
+            k = nextInt();
+        }
         out.flush();
         out.close();
     }
