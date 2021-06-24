@@ -1,20 +1,19 @@
-package acwing.weeklycontest4;
+package acwing.weeklycontest6;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.*;
+import java.util.StringTokenizer;
 
-public class A {
+public class C {
     static PrintWriter out = new PrintWriter(System.out);
     static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer tokenizer = new StringTokenizer("");
 
     public static void main(String[] args) throws IOException {
-        int[] ans = new int[20];
-        ArrayList<Integer> ret = new ArrayList<>();
-      
+        int T = nextInt();
+
         out.flush();
         out.close();
     }

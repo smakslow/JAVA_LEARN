@@ -1,10 +1,10 @@
-package acwing.weeklycontest4;
+package acwing.weeklycontest5;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.*;
+import java.util.StringTokenizer;
 
 public class A {
     static PrintWriter out = new PrintWriter(System.out);
@@ -12,9 +12,23 @@ public class A {
     static StringTokenizer tokenizer = new StringTokenizer("");
 
     public static void main(String[] args) throws IOException {
-        int[] ans = new int[20];
-        ArrayList<Integer> ret = new ArrayList<>();
-      
+        int n = nextInt();
+        String str = next();
+        int cntA = 0, cntB= 0;
+        for (int i = 0; i < str.length(); i++) {
+            if(str.charAt(i) == 'A'){
+                cntA++;
+            }else{
+                cntB++;
+            }
+        }
+        if(cntA > cntB){
+            out.println("A");
+        }else if (cntB > cntA){
+            out.println("B");
+        }else{
+            out.println("T");
+        }
         out.flush();
         out.close();
     }
