@@ -14,7 +14,7 @@ public class B {
     public static void main(String[] args) throws IOException {
         int n = nextInt();
         long k = nextLong();
-        System.out.println(Integer.bitCount());
+        System.out.println(Integer.bitCount(n));
         out.println(dfs(n, k));
         out.flush();
         out.close();
