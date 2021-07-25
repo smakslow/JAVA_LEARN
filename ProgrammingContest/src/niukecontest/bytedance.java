@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class bytedance {
-    static void zj1(String s) {
+    static void test(String s) {
         Map<Character, Integer> map = new HashMap<>();
         for (char c : s.toCharArray()) {
             map.put((c), map.getOrDefault(c, 0) + 1);
