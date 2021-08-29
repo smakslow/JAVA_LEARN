@@ -21,7 +21,7 @@ public class AcWing429 {
             num[i][3] = i + 1;
         }
 
-        Arrays.sort(num, (a, b) -> {     //传进来的是一行的数据，a = {90,67,80,1} b = {87,66,91,2}
+        Arrays.sort(num, (a, b) -> {     //传进来的是一行的数据，a = {90,67,80,1} B = {87,66,91,2}
             int s1 = a[0] + a[1] + a[2];
             int s2 = b[0] + b[1] + b[2];
             if (s1 != s2) return s2 - s1;           //总成绩按照从大到小排序

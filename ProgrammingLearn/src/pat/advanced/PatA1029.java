@@ -29,7 +29,7 @@ public class PatA1029 {
         int n = a.length, m = b.length;
         int mid = (n + m -1) >> 1;
         int i = 0, j = 0, cnt = 0;
-        while (cnt < mid) //双指针寻找中位数，若a[i]<b[j]，则a[i]排在前面，i++，反之b[i]排在前面，j++
+        while (cnt < mid) //双指针寻找中位数，若a[i]<B[j]，则a[i]排在前面，i++，反之b[i]排在前面，j++
         {
             if (a[i] < b[j]) {
                 i++;

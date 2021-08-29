@@ -10,20 +10,15 @@ public class HJ22 {
         String str;
         while ((str = br.readLine()) != null) {
             int g = Integer.parseInt(str);
-
-            if (g == 0) {
+            if (g == 0)
                 return;
-            }
-
             int count = 0;
-
             do {
                 int f = g / 3;
                 count += f;
                 g = g % 3 + f;
 
             } while (g >= 3);
-
             if (g == 2) {
                 count += 1;
             }

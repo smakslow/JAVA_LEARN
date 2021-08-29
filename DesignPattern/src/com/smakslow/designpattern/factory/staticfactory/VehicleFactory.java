@@ -15,9 +15,9 @@ public class VehicleFactory {
             return new Bike();
         } else if (vehicleType.equals(VehicleType.Car)) {
             return new Car();
-        } else  if (vehicleType.equals(VehicleType.Trunk)){
+        } else if (vehicleType.equals(VehicleType.Trunk)) {
             return new Trunk();
         }
-        return  null;
+        return null;
     }
 }
