@@ -3,7 +3,7 @@ package leetcode.weekly_contest._256;
 public class C {
     class Solution {
         int n, ans, w;
-        int[] cab = new int[20];
+        int[] sum = new int[20];
 
         void dfs(int[] tasks, int now, int cnt) {
             if (cnt >= ans) return;
@@ -12,15 +12,15 @@ public class C {
                 return;
             }
             for (int i = 1; i < cnt; i++) {
-                if (cab[i] + tasks[now] <= w) {
-                    cab[i] += tasks[now];//更新
+                if (sum[i] + tasks[now] <= w) {
+                    sum[i] += tasks[now];//更新
                     dfs(tasks, now + 1, cnt);
-                    cab[i] -= tasks[now];//还原现场
+                    sum[i] -= tasks[now];//还原现场
                 }
             }
-            cab[cnt + 1] = tasks[now];
+            sum[cnt + 1] = tasks[now];
             dfs(tasks, now + 1, cnt + 1);
-            cab[cnt + 1] = 0;//还原现场
+            sum[cnt + 1] = 0;//还原现场
         }
 
         public int minSessions(int[] tasks, int sessionTime) {

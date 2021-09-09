@@ -1,7 +1,6 @@
 package leetcode.daily;
 
 public class _42 {
-
     public int trap(int[] height) {
         int ans = 0;
         int n = height.length;

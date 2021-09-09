@@ -1,19 +1,15 @@
 package leetcode.weekly_contest._256;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class B {
     static class Solution {
         public String kthLargestNumber(String[] nums, int k) {
-            Arrays.sort(nums, new Comparator<String>() {
-                @Override
-                public int compare(String o1, String o2) {
-                    if (o1.length() == o2.length()) {
-                        return (o1).compareTo(o2);
-                    }
-                    return o1.length() - o2.length();
+            Arrays.sort(nums, (o1, o2) -> {
+                if (o1.length() == o2.length()) {
+                    return o1.compareTo(o2);
                 }
+                return o1.length() - o2.length();
             });
             System.out.println(Arrays.toString(nums));
             return nums[nums.length - k];
