@@ -1,7 +1,7 @@
 package com.smakslow.javapractice.test;
 
 import com.smakslow.javapractice.utils.MyMathUtils;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.function.Function;
 

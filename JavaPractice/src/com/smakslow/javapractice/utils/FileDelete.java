@@ -3,40 +3,40 @@ package com.smakslow.javapractice.utils;
 import java.io.File;
 
 public class FileDelete {
-    static String newString = "";//ĞÂ×Ö·û´®,Èç¹ûÊÇÈ¥µôÇ°×ººó×º¾ÍÁô¿Õ£¬·ñÔòĞ´ÉÏĞèÒªÌæ»»µÄ×Ö·û´®
-    static String oldString = "pdf";//Òª±»Ìæ»»µÄ×Ö·û´®
-    static String dir = "C:\\Users\\51484\\Desktop\\¼«¿ÍÊ±¼ä";//ÎÄ¼şËùÔÚÂ·¾¶£¬ËùÓĞÎÄ¼şµÄ¸ùÄ¿Â¼£¬¼ÇµÃĞŞ¸ÄÎªÄãµçÄÔÉÏµÄÎÄ¼şËùÔÚÂ·¾¶
+    static String newString = "";//æ–°å­—ç¬¦ä¸²,å¦‚æœæ˜¯å»æ‰å‰ç¼€åç¼€å°±ç•™ç©ºï¼Œå¦åˆ™å†™ä¸Šéœ€è¦æ›¿æ¢çš„å­—ç¬¦ä¸²
+    static String oldString = "pdf";//è¦è¢«æ›¿æ¢çš„å­—ç¬¦ä¸²
+    static String dir = "C:\\Users\\51484\\Desktop\\æå®¢æ—¶é—´";//æ–‡ä»¶æ‰€åœ¨è·¯å¾„ï¼Œæ‰€æœ‰æ–‡ä»¶çš„æ ¹ç›®å½•ï¼Œè®°å¾—ä¿®æ”¹ä¸ºä½ ç”µè„‘ä¸Šçš„æ–‡ä»¶æ‰€åœ¨è·¯å¾„
 
     public static void main(String[] args){
-        recursiveTraversalFolder(dir);//µİ¹é±éÀú´ËÂ·¾¶ÏÂËùÓĞÎÄ¼ş¼Ğ
+        recursiveTraversalFolder(dir);//é€’å½’éå†æ­¤è·¯å¾„ä¸‹æ‰€æœ‰æ–‡ä»¶å¤¹
     }
 
     /**
-     * µİ¹é±éÀúÎÄ¼ş¼Ğ»ñÈ¡ÎÄ¼ş
+     * é€’å½’éå†æ–‡ä»¶å¤¹è·å–æ–‡ä»¶
      */
     public static void recursiveTraversalFolder(String path) {
         File folder = new File(path);
         if (folder.exists()) {
             File[] fileArr = folder.listFiles();
             if (null == fileArr || fileArr.length == 0) {
-                System.out.println("ÎÄ¼ş¼ĞÊÇ¿ÕµÄ!");
+                System.out.println("æ–‡ä»¶å¤¹æ˜¯ç©ºçš„!");
             } else {
-                String fileName;//¾ÉÎÄ¼şÃû
+                String fileName;//æ—§æ–‡ä»¶å
                 for (File file : fileArr) {
-                    if (file.isDirectory()) {//ÊÇÎÄ¼ş¼Ğ£¬¼ÌĞøµİ¹é£¬Èç¹ûĞèÒªÖØÃüÃûÎÄ¼ş¼Ğ£¬ÕâÀï¿ÉÒÔ×ö´¦Àí
-                        System.out.println("ÎÄ¼ş¼Ğ:" + file.getAbsolutePath() + "£¬¼ÌĞøµİ¹é£¡");
+                    if (file.isDirectory()) {//æ˜¯æ–‡ä»¶å¤¹ï¼Œç»§ç»­é€’å½’ï¼Œå¦‚æœéœ€è¦é‡å‘½åæ–‡ä»¶å¤¹ï¼Œè¿™é‡Œå¯ä»¥åšå¤„ç†
+                        System.out.println("æ–‡ä»¶å¤¹:" + file.getAbsolutePath() + "ï¼Œç»§ç»­é€’å½’ï¼");
                         recursiveTraversalFolder(file.getAbsolutePath());
-                    } else {//ÊÇÎÄ¼ş£¬ÅĞ¶ÏÊÇ·ñĞèÒªÖØÃüÃû
+                    } else {//æ˜¯æ–‡ä»¶ï¼Œåˆ¤æ–­æ˜¯å¦éœ€è¦é‡å‘½å
                         fileName = file.getName();
-                        if (!fileName.endsWith(oldString)) {//ÎÄ¼şÃû°üº¬ĞèÒª±»Ìæ»»µÄ×Ö·û´®
+                        if (!fileName.endsWith(oldString)) {//æ–‡ä»¶ååŒ…å«éœ€è¦è¢«æ›¿æ¢çš„å­—ç¬¦ä¸²
                             file.delete();
-                            System.out.println("delete£º" + fileName);
+                            System.out.println("deleteï¼š" + fileName);
                         }
                     }
                 }
             }
         } else {
-            System.out.println("ÎÄ¼ş²»´æÔÚ!");
+            System.out.println("æ–‡ä»¶ä¸å­˜åœ¨!");
         }
     }
 }

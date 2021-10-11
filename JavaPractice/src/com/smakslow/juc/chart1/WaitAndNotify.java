@@ -1,11 +1,11 @@
 package com.smakslow.juc.chart1;
 
 public class WaitAndNotify {
-    /*ÔÚÕâ¸öDemo?£¬Ïß³ÌAºÍÏß³ÌB?ÏÈ´òÓ¡³ö??ÐèÒªµÄ¶«?£¬È»ºóÊ¹
-    ? notify() ?·¨½ÐÐÑÁí?¸öÕýÔÚµÈ´ýµÄÏß³Ì£¬È»ºó??Ê¹? wait() ?·¨ÏÝ?µÈ´ý
-    ²¢ÊÍ·Å lock Ëø¡£
-    ÐèÒª×¢ÒâµÄÊÇµÈ´ý/Í¨Öª»úÖÆÊ¹?µÄÊÇÊ¹?Í¬?¸ö¶ÔÏóËø£¬Èç¹ûÄãÁ½¸öÏß³ÌÊ¹
-    ?µÄÊÇ²»Í¬µÄ¶ÔÏóËø£¬ÄÇËüÃÇÖ®¼äÊÇ²»ÄÜ?µÈ´ý/Í¨Öª»úÖÆÍ¨ÐÅµÄ¡£*/
+    /*ï¿½ï¿½ï¿½ï¿½ï¿½Demo?ï¿½ï¿½ï¿½ß³ï¿½LCP39ï¿½ï¿½ï¿½ß³ï¿½B?ï¿½È´ï¿½Ó¡ï¿½ï¿½??ï¿½ï¿½Òªï¿½Ä¶ï¿½?ï¿½ï¿½È»ï¿½ï¿½Ê¹
+    ? notify() ?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½ÚµÈ´ï¿½ï¿½ï¿½ï¿½ß³Ì£ï¿½È»ï¿½ï¿½??Ê¹? wait() ?ï¿½ï¿½ï¿½ï¿½?ï¿½È´ï¿½
+    ï¿½ï¿½ï¿½Í·ï¿½ lock ï¿½ï¿½ï¿½ï¿½
+    ï¿½ï¿½Òª×¢ï¿½ï¿½ï¿½ï¿½ÇµÈ´ï¿½/Í¨Öªï¿½ï¿½ï¿½ï¿½Ê¹?ï¿½ï¿½ï¿½ï¿½Ê¹?Í¬?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½Ê¹
+    ?ï¿½ï¿½ï¿½Ç²ï¿½Í¬ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½Ç²ï¿½ï¿½ï¿½?ï¿½È´ï¿½/Í¨Öªï¿½ï¿½ï¿½ï¿½Í¨ï¿½ÅµÄ¡ï¿½*/
     private static Object lock = new Object();
 
     static class ThreadA implements Runnable {

@@ -38,30 +38,30 @@ public class CD105 {
         }
         int size = arr.length;
         int maxIndex = 0;
-        // ÏÈÔÚ»·ÖÐÕÒµ½ÆäÖÐÒ»¸ö×î´óÖµµÄÎ»ÖÃ£¬ÄÄÒ»¸ö¶¼ÐÐ
+        // ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Î»ï¿½Ã£ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         for (int i = 0; i < size; i++) {
             maxIndex = arr[maxIndex] < arr[i] ? i : maxIndex;
         }
         Stack<Record> stack = new Stack<Record>();
-        // ÏÈ°Ñ(×î´óÖµ,1)Õâ¸ö¼ÇÂ¼·ÅÈë stack ÖÐ
+        // ï¿½È°ï¿½(ï¿½ï¿½ï¿½Öµ,1)ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ stack ï¿½ï¿½
         stack.push(new Record(arr[maxIndex]));
-        // ´Ó×î´óÖµÎ»ÖÃµÄÏÂÒ»¸öÎ»ÖÃ¿ªÊ¼ÑØ next ·½Ïò±éÀú
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ÖµÎ»ï¿½Ãµï¿½ï¿½ï¿½Ò»ï¿½ï¿½Î»ï¿½Ã¿ï¿½Ê¼ï¿½ï¿½ next ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         int index = nextIndex(maxIndex, size);
-        // ÓÃ¡°Ð¡ÕÒ´ó¡±µÄ·½Ê½Í³¼ÆËùÓÐ¿É¼ûÉ½·å¶Ô
+        // ï¿½Ã¡ï¿½Ð¡ï¿½Ò´ó¡±µÄ·ï¿½Ê½Í³ï¿½ï¿½ï¿½ï¿½ï¿½Ð¿É¼ï¿½É½ï¿½ï¿½ï¿½
         int res = 0;
-        // ±éÀú½×¶Î¿ªÊ¼£¬µ± index ÔÙ´Î»Øµ½ maxIndex µÄÊ±ºò£¬ËµÃ÷×ªÁËÒ»È¦£¬±éÀú½×¶Î¾Í½áÊø
+        // ï¿½ï¿½ï¿½ï¿½ï¿½×¶Î¿ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ index ï¿½Ù´Î»Øµï¿½ maxIndex ï¿½ï¿½Ê±ï¿½ï¿½Ëµï¿½ï¿½×ªï¿½ï¿½Ò»È¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¶Î¾Í½ï¿½ï¿½ï¿½
         while (index != maxIndex) {
-            // µ±Ç°Êý×Ö arr[index]Òª½øÕ»£¬ÅÐ¶Ï»á²»»áÆÆ»µµÚÒ»Î¬µÄÊý×Ö´Ó¶¥µ½µ×ÒÀ´Î±ä´ó
-            // Èç¹ûÆÆ»µÁË£¬¾ÍÒÀ´Îµ¯³öÕ»¶¥¼ÇÂ¼£¬²¢¼ÆËãÉ½·å¶ÔÊýÁ¿³ÌÐòÔ±´úÂëÃæÊÔÖ¸ÄÏ£º IT ÃûÆóËã·¨ÓëÊý¾Ý½á¹¹ÌâÄ¿×îÓÅ½â£¨µÚ 2 °æ£©
+            // ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ arr[index]Òªï¿½ï¿½Õ»ï¿½ï¿½ï¿½Ð¶Ï»á²»ï¿½ï¿½ï¿½Æ»ï¿½ï¿½ï¿½Ò»Î¬ï¿½ï¿½ï¿½ï¿½ï¿½Ö´Ó¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î±ï¿½ï¿½
+            // ï¿½ï¿½ï¿½ï¿½Æ»ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îµï¿½ï¿½ï¿½Õ»ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½Ï£ï¿½ IT ï¿½ï¿½ï¿½ï¿½ï¿½ã·¨ï¿½ï¿½ï¿½ï¿½ï¿½Ý½á¹¹ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½Å½â£¨ï¿½ï¿½ 2 ï¿½æ£©
 
             while (stack.peek().value < arr[index]) {
                 int k = stack.pop().times;
-                // µ¯³ö¼ÇÂ¼Îª(X,K)£¬Èç¹û K==1£¬²úÉú 2 ¶Ô
-                // Èç¹û K>1£¬²úÉú 2*K + C(2,K)¶Ô
+                // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼Îª(X,K)ï¿½ï¿½ï¿½ï¿½ï¿½ K==1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2 ï¿½ï¿½
+                // ï¿½ï¿½ï¿½ K>1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2*K + LCP41(2,K)ï¿½ï¿½
                 res += getInternalSum(k) + 2 * k;
             }
-            // µ±Ç°Êý×Ö arr[index]Òª½øÈëÕ»ÁË£¬Èç¹ûºÍµ±Ç°Õ»¶¥Êý×ÖÒ»Ñù¾ÍºÏ²¢
-            // ²»Ò»Ñù¾Í°Ñ¼ÇÂ¼(arr[index],1)·ÅÈëÕ»ÖÐ
+            // ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ arr[index]Òªï¿½ï¿½ï¿½ï¿½Õ»ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½Íµï¿½Ç°Õ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ÍºÏ²ï¿½
+            // ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Í°Ñ¼ï¿½Â¼(arr[index],1)ï¿½ï¿½ï¿½ï¿½Õ»ï¿½ï¿½
             if (stack.peek().value == arr[index]) {
                 stack.peek().times++;
             } else {
@@ -69,29 +69,29 @@ public class CD105 {
             }
             index = nextIndex(index, size);
         }
-        // ÇåËã½×¶Î¿ªÊ¼
-        // ÇåËã½×¶ÎµÄµÚ 1 Ð¡½×¶Î
+        // ï¿½ï¿½ï¿½ï¿½×¶Î¿ï¿½Ê¼
+        // ï¿½ï¿½ï¿½ï¿½×¶ÎµÄµï¿½ 1 Ð¡ï¿½×¶ï¿½
         while (stack.size() > 2) {
             int times = stack.pop().times;
             res += getInternalSum(times) + 2 * times;
         }
-        // ÇåËã½×¶ÎµÄµÚ 2 Ð¡½×¶Î
+        // ï¿½ï¿½ï¿½ï¿½×¶ÎµÄµï¿½ 2 Ð¡ï¿½×¶ï¿½
         if (stack.size() == 2) {
             int times = stack.pop().times;
             res += getInternalSum(times)
                     + (stack.peek().times == 1 ? times : 2 * times);
         }
-        // ÇåËã½×¶ÎµÄµÚ 3 Ð¡½×¶Î
+        // ï¿½ï¿½ï¿½ï¿½×¶ÎµÄµï¿½ 3 Ð¡ï¿½×¶ï¿½
         res += getInternalSum(stack.pop().times);
         return res;
     }
 
-    // Èç¹û k==1£¬ ·µ»Ø 0£» Èç¹û k>1£¬ ·µ»Ø C(2,k)
+    // ï¿½ï¿½ï¿½ k==1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 0ï¿½ï¿½ ï¿½ï¿½ï¿½ k>1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ LCP41(2,k)
     public static int getInternalSum(int k) {
         return k == 1 ? 0 : (k * (k - 1) / 2);
     }
 
-    // »·ÐÎÊý×éÖÐµ±Ç°Î»ÖÃÎª i£¬Êý×é³¤¶ÈÎª size£¬·µ»Ø i µÄÏÂÒ»¸öÎ»ÖÃ
+    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½Ç°Î»ï¿½ï¿½Îª iï¿½ï¿½ï¿½ï¿½ï¿½é³¤ï¿½ï¿½Îª sizeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ i ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Î»ï¿½ï¿½
     public  static int nextIndex(int i, int size) {
         return i < (size - 1) ? (i + 1) : 0;
     }

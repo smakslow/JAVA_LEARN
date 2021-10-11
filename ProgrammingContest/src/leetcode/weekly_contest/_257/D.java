@@ -26,7 +26,7 @@ public class D {
 
         public boolean gcdSort(int[] nums) {
             int N = nums.length;
-            // factored[i] = a list of unique prime factors of A[i]
+            // factored[i] = a list of unique prime factors of LCP39[i]
             ArrayList<Integer>[] factored = new ArrayList[N];
             for (int i = 0; i < N; ++i) {
                 factored[i] = new ArrayList<>();

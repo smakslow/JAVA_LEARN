@@ -4,46 +4,46 @@ import java.io.File;
 import java.io.IOException;
 
 public class FileReplace {
-    static String newString = "";//ĞÂ×Ö·û´®,Èç¹ûÊÇÈ¥µôÇ°×ººó×º¾ÍÁô¿Õ£¬·ñÔòĞ´ÉÏĞèÒªÌæ»»µÄ×Ö·û´®
-    static String oldString = "¡¾Èğ¿ÍÂÛ Ì³ www.ruike1.com¡¿";//Òª±»Ìæ»»µÄ×Ö·û´®
-    static String dir = "C:\\Users\\51484\\Desktop\\C\\ËØ²ÄºÍÔ´Âë";//ÎÄ¼şËùÔÚÂ·¾¶£¬ËùÓĞÎÄ¼şµÄ¸ùÄ¿Â¼£¬¼ÇµÃĞŞ¸ÄÎªÄãµçÄÔÉÏµÄÎÄ¼şËùÔÚÂ·¾¶
+    static String newString = "";//æ–°å­—ç¬¦ä¸²,å¦‚æœæ˜¯å»æ‰å‰ç¼€åç¼€å°±ç•™ç©ºï¼Œå¦åˆ™å†™ä¸Šéœ€è¦æ›¿æ¢çš„å­—ç¬¦ä¸²
+    static String oldString = "ã€ç°ç°è€ƒç ”ã€‘";//è¦è¢«æ›¿æ¢çš„å­—ç¬¦ä¸²
+    static String dir = "C:\\Users\\51484\\Desktop\\C++\\DS\\915çœŸé¢˜";//æ–‡ä»¶æ‰€åœ¨è·¯å¾„ï¼Œæ‰€æœ‰æ–‡ä»¶çš„æ ¹ç›®å½•ï¼Œè®°å¾—ä¿®æ”¹ä¸ºä½ ç”µè„‘ä¸Šçš„æ–‡ä»¶æ‰€åœ¨è·¯å¾„
 
     public static void main(String[] args) throws IOException {
-        recursiveTraversalFolder(dir);//µİ¹é±éÀú´ËÂ·¾¶ÏÂËùÓĞÎÄ¼ş¼Ğ
+        recursiveTraversalFolder(dir);//é€’å½’éå†æ­¤è·¯å¾„ä¸‹æ‰€æœ‰æ–‡ä»¶å¤¹
     }
     /**
-     * µİ¹é±éÀúÎÄ¼ş¼Ğ»ñÈ¡ÎÄ¼ş
+     * é€’å½’éå†æ–‡ä»¶å¤¹è·å–æ–‡ä»¶
      */
     public static void recursiveTraversalFolder(String path) {
         File folder = new File(path);
         if (folder.exists()) {
             File[] fileArr = folder.listFiles();
             if (null == fileArr || fileArr.length == 0) {
-                System.out.println("ÎÄ¼ş¼ĞÊÇ¿ÕµÄ!");
+                System.out.println("æ–‡ä»¶å¤¹æ˜¯ç©ºçš„!");
                 return;
             } else {
-                File newDir = null;//ÎÄ¼şËùÔÚÎÄ¼ş¼ĞÂ·¾¶+ĞÂÎÄ¼şÃû
-                String newName = "";//ĞÂÎÄ¼şÃû
-                String fileName = null;//¾ÉÎÄ¼şÃû
-                File parentPath = new File("");//ÎÄ¼şËùÔÚ¸¸¼¶Â·¾¶
+                File newDir = null;//æ–‡ä»¶æ‰€åœ¨æ–‡ä»¶å¤¹è·¯å¾„+æ–°æ–‡ä»¶å
+                String newName = "";//æ–°æ–‡ä»¶å
+                String fileName = null;//æ—§æ–‡ä»¶å
+                File parentPath = new File("");//æ–‡ä»¶æ‰€åœ¨çˆ¶çº§è·¯å¾„
                 for (File file : fileArr) {
-                    if (file.isDirectory()) {//ÊÇÎÄ¼ş¼Ğ£¬¼ÌĞøµİ¹é£¬Èç¹ûĞèÒªÖØÃüÃûÎÄ¼ş¼Ğ£¬ÕâÀï¿ÉÒÔ×ö´¦Àí
-                        System.out.println("ÎÄ¼ş¼Ğ:" + file.getAbsolutePath() + "£¬¼ÌĞøµİ¹é£¡");
+                    if (file.isDirectory()) {//æ˜¯æ–‡ä»¶å¤¹ï¼Œç»§ç»­é€’å½’ï¼Œå¦‚æœéœ€è¦é‡å‘½åæ–‡ä»¶å¤¹ï¼Œè¿™é‡Œå¯ä»¥åšå¤„ç†
+                        System.out.println("æ–‡ä»¶å¤¹:" + file.getAbsolutePath() + "ï¼Œç»§ç»­é€’å½’ï¼");
                         recursiveTraversalFolder(file.getAbsolutePath());
-                    } else {//ÊÇÎÄ¼ş£¬ÅĞ¶ÏÊÇ·ñĞèÒªÖØÃüÃû
+                    } else {//æ˜¯æ–‡ä»¶ï¼Œåˆ¤æ–­æ˜¯å¦éœ€è¦é‡å‘½å
                         fileName = file.getName();
                         parentPath = file.getParentFile();
-                        if (fileName.contains(oldString)) {//ÎÄ¼şÃû°üº¬ĞèÒª±»Ìæ»»µÄ×Ö·û´®
-                            newName = fileName.replaceAll(oldString, newString);//ĞÂÃû×Ö
-                            newDir = new File(parentPath + "/" + newName);//ÎÄ¼şËùÔÚÎÄ¼ş¼ĞÂ·¾¶+ĞÂÎÄ¼şÃû
-                            file.renameTo(newDir);//ÖØÃüÃû
-                            System.out.println("ĞŞ¸Äºó£º" + newDir);
+                        if (fileName.contains(oldString)) {//æ–‡ä»¶ååŒ…å«éœ€è¦è¢«æ›¿æ¢çš„å­—ç¬¦ä¸²
+                            newName = fileName.replaceAll(oldString, newString);//æ–°åå­—
+                            newDir = new File(parentPath + "/" + newName);//æ–‡ä»¶æ‰€åœ¨æ–‡ä»¶å¤¹è·¯å¾„+æ–°æ–‡ä»¶å
+                            file.renameTo(newDir);//é‡å‘½å
+                            System.out.println("ä¿®æ”¹åï¼š" + newDir);
                         }
                     }
                 }
             }
         } else {
-            System.out.println("ÎÄ¼ş²»´æÔÚ!");
+            System.out.println("æ–‡ä»¶ä¸å­˜åœ¨!");
         }
     }
 }

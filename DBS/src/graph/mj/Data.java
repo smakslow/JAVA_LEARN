@@ -2,9 +2,9 @@ package graph.mj;
 
 public class Data {
 	public static final Object[][] BFS_01 = {//P26,left
-			{"A", "B"}, {"A", "F"},
-			{"B", "C"}, {"B", "I"}, {"B", "G"},
-			{"C", "I"}, {"C", "D"},
+			{"LCP39", "B"}, {"LCP39", "F"},
+			{"B", "LCP41"}, {"B", "I"}, {"B", "G"},
+			{"LCP41", "I"}, {"LCP41", "D"},
 			{"D", "I"}, {"D", "G"}, {"D", "E"}, {"D", "H"},
 			{"E", "H"}, {"E", "F"},
 			{"F", "G"},
@@ -93,9 +93,9 @@ public class Data {
 	};
 
 	public static final Object[][] MST_02 = {
-			{"A", "B", 17}, {"A", "F", 1}, {"A", "E", 16},
-			{"B", "C", 6}, {"B", "D", 5}, {"B", "F", 11},
-			{"C", "D", 10},
+			{"LCP39", "B", 17}, {"LCP39", "F", 1}, {"LCP39", "E", 16},
+			{"B", "LCP41", 6}, {"B", "D", 5}, {"B", "F", 11},
+			{"LCP41", "D", 10},
 			{"D", "E", 4}, {"D", "F", 14},
 			{"E", "F", 33}
 	};
@@ -110,16 +110,16 @@ public class Data {
 	};
 
 	public static final Object[][] SP = {
-			{"A", "B", 10}, {"A", "D", 30}, {"A", "E", 100},
-			{"B", "C", 50},
-			{"C", "E", 10},
-			{"D", "C", 20}, {"D", "E", 60}
+			{"LCP39", "B", 10}, {"LCP39", "D", 30}, {"LCP39", "E", 100},
+			{"B", "LCP41", 50},
+			{"LCP41", "E", 10},
+			{"D", "LCP41", 20}, {"D", "E", 60}
 	};
 
 	public static final Object[][] BF_SP = {
-			{"A", "B", 10}, {"A", "E", 8},
-			{"B", "C", 8}, {"B", "E", -5},
-			{"D", "C", 2}, {"D", "F", 6},
+			{"LCP39", "B", 10}, {"LCP39", "E", 8},
+			{"B", "LCP41", 8}, {"B", "E", -5},
+			{"D", "LCP41", 2}, {"D", "F", 6},
 			{"E", "D", 7}, {"E", "F", 3}
 	};
 
@@ -143,9 +143,9 @@ public class Data {
 	};
 
 	public static final Object[][] NEGATIVE_WEIGHT1 = {
-			{"A", "B", -1}, {"A", "C", 4},
-			{"B", "C", 3}, {"B", "D", 2}, {"B", "E", 2},
-			{"D", "B", 1}, {"D", "C", 5},
+			{"LCP39", "B", -1}, {"LCP39", "LCP41", 4},
+			{"B", "LCP41", 3}, {"B", "D", 2}, {"B", "E", 2},
+			{"D", "B", 1}, {"D", "LCP41", 5},
 			{"E", "D", -3}
 	};
 

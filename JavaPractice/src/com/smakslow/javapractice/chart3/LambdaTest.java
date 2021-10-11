@@ -2,7 +2,7 @@ package com.smakslow.javapractice.chart3;
 
 import com.smakslow.javapractice.entity.Apple;
 import com.smakslow.javapractice.utils.AppleUtils;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.HashMap;

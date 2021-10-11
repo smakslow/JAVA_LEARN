@@ -1,6 +1,6 @@
 package com.smakslow.javapractice.chart2;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class ThreadTest {
     private static int i = 100;

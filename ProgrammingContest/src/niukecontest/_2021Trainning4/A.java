@@ -17,7 +17,7 @@ public class A {
             int a = nextInt();
             int b = nextInt();
         }
-
+        System.out.println();
         out.flush();
         out.close();
     }

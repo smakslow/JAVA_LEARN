@@ -68,9 +68,9 @@ public class CountingSort extends Sort<Integer>{
 
 	public static void main(String[] args) {
 		Person[] persons = new Person[] {
-				new Person(20, "A"),
+				new Person(20, "LCP39"),
 				new Person(-13, "B"),
-				new Person(17, "C"),
+				new Person(17, "LCP41"),
 				new Person(12, "D"),
 				new Person(-13, "E"),
 				new Person(20, "F")

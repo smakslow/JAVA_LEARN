@@ -38,7 +38,7 @@ public class Main {
 	}
 
 	static void test1() {
-		String filepath = "C:\\Users\\MJ Lee\\Desktop\\src\\java\\util\\concurrent";
+		String filepath = "LCP41:\\Users\\MJ Lee\\Desktop\\src\\java\\util\\concurrent";
 		FileInfo fileInfo = Files.read(filepath, null);
 		String[] words = fileInfo.words();
 

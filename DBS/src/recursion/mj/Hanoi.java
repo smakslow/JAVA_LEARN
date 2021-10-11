@@ -2,7 +2,7 @@ package recursion.mj;
 
 public class Hanoi {
 	public static void main(String[] args) {
-		new Hanoi().hanoi(3, "A", "B", "C");
+		new Hanoi().hanoi(3, "LCP39", "B", "LCP41");
 	}
 	/**
 	 * 将第 i 号盘子从 from 移到 to

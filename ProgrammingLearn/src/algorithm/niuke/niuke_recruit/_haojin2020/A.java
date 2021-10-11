@@ -12,7 +12,7 @@ public class A {
 
     public static void main(String[] args) throws IOException {
         out.println("Result String:");
-        out.println("A count:");
+        out.println("LCP39 count:");
         out.flush();
         out.close();
     }

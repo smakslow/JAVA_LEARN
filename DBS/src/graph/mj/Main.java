@@ -44,7 +44,7 @@ public class Main {
 
 	static void testSp() {
 		Graph<Object, Double> graph = directedGraph(Data.NEGATIVE_WEIGHT1);
-		Map<Object, PathInfo<Object, Double>> sp = graph.shortestPath("A");
+		Map<Object, PathInfo<Object, Double>> sp = graph.shortestPath("LCP39");
 		if (sp == null) return;
 		sp.forEach((Object v, PathInfo<Object, Double> path) -> {
 			System.out.println(v + " - " + path);
